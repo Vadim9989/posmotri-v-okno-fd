@@ -50,3 +50,111 @@ ol {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
 }
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  width: 100%;
+  height: 100%;
+}
+
+.content__list-container {
+  height: 298px;
+  overflow-y: scroll;
+}
+
+.result__video-container {
+  margin-top: 78px;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__video-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content__video-card-thumbnail {
+  object-fit: cover;
+  object-position: 2px;
+  width: 194px;
+  height: 103px;
+}
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+
+.search-form__fieldset-title {
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+}
+
+.title {
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 70.5px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  text-transform: uppercase;
+  color: rgba(84, 80, 80, 1);
+}
+
+.content__card-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  line-height: 30px;
+}
+
+.content__video-card-title {
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16.2px;
+  letter-spacing: 0%;
+}
+
+.content__list-item {
+  display: flex;
+}
