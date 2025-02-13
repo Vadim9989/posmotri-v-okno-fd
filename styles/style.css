@@ -81,7 +81,7 @@ ol {
   position: relative;
   margin-top: 74px;
   width: 711px;
-  height: 386px;
+  min-height: 386px;
   margin-bottom: 16px;
 }
 
@@ -119,7 +119,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald, "Open Sans";
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
@@ -146,7 +146,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, "Open Sans";
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
